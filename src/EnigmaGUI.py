@@ -72,7 +72,6 @@ class EnigmaGUI:
         button_frame = ttk.Frame(self.root)
         button_frame.grid(row=4, column=0, pady=10)
         # buttons
-        ttk.Button(self.root, text="Reset Machine", command=self._create_machine).grid(row=4, column=0, pady=10)
         ttk.Button(self.root, text="Randomize Settings", command=self._randomize_settings).grid(row=0, column=1, padx=5)
         ttk.Button(self.root, text="Export Settings", command=self._copy_settings).grid(row=1, column=1, padx=5)
         ttk.Button(self.root, text="Import Settings", command=self._paste_settings).grid(row=2, column=1, padx=5)
